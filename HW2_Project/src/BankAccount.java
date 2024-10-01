@@ -3,7 +3,7 @@ public class BankAccount {
     private final double INTEREST_RATE;
 
     // Instance variables: accountNum, bankBalance, duration, and interest
-    private int accountNum;
+    private int accountNum; // In my opinion, accountNum should be a String because you never do arithmetic on bank account numbers.
     private double bankBalance;
     private final int DURATION; // time in years
     private double interest;
